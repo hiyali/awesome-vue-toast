@@ -5,10 +5,12 @@
   <title>awesome toast demo</title>
 </head>
 <body>
-  Toast demo
+  <h1>Toast demo</h1>
+  <h3>Deafult position is se (south east)</h3>
+  <button type="button" onClick="javascript:Toast.showToast('Hello ... !')">Default (Info)</button>
+  <button type="button" onClick="javascript:Toast.addMessage({ text: 'This is success type', type: 'success' })">Success</button>
+  <button type="button" onClick="javascript:Toast.addMessage({ text: 'This is warning type', type: 'warning' })">Warning</button>
+  <button type="button" onClick="javascript:Toast.addMessage({ text: 'This is danger type', type: 'danger' })">Danger</button>
   <script src="./build/js/toast.js"></script>
-  <script>
-    Toast.showToast('Enjoy this toast')
-  </script>
 </body>
 </html>

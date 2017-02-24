@@ -2,7 +2,7 @@
   <div class="toast" :class="positionClass">
 
     <toast-transition>
-      <div class="toast-message" :class="messageTypeClass(m)" v-for="m in messages" :key="m.id" role="note">
+      <div class="toast-message" v-for="m in messages" :class="messageTypeClass(m)" :key="m.id" role="note">
         <div class="toast-message-text">{{ m.text }}</div>
         <button class="toast-button" aria-label="Close" type="button" @click="close(m.id)"></button>
       </div>
@@ -55,6 +55,7 @@ export default {
 
       this.messages.push(createMessage(id, text, type, dismissAfter))
       setTimeout(() => this.removeMessage(id), dismissAfter)
+      return id
     },
     removeMessage (id) {
       this.messages = this.messages.filter(m => m.id !== id)

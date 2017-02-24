@@ -2,6 +2,7 @@
 🚀 awesome vue2 simple toast
 
 [demo](https://hiyali.github.io/awesome-vue-toast)
+[changed from AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
 
 # usage
 ```javascript

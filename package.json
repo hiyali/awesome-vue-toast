@@ -4,7 +4,7 @@
   "description": "awesome vue2 simple toast",
   "scripts": {
     "dev": "webpack --config conf/webpack.conf.js --watch --progress --color",
-    "build": "webpack --config conf/webpack.conf.js --progress --color",
+    "build": "webpack --config conf/webpack.conf.js --progress --color --production",
     "lint": "eslint --ext .js,.vue src"
   },
   "author": "Salam Hiyali",

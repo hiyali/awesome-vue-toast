@@ -28,7 +28,7 @@ export default {
     return {
       messages: [],
       maxToastId: 0,
-      dismissInterval: 5 * 1000
+      dismissInterval: 50 * 1000
     }
   },
   props: {
@@ -48,7 +48,7 @@ export default {
 
   methods: {
     showToast (message) {
-      this.addMessage(message)
+      this.addMessage({ text: message })
     },
     addMessage ({ text, type = 'info', dismissAfter = this.dismissInterval }) {
       const id = ++this.maxToastId

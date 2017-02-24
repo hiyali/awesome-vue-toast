@@ -7,6 +7,8 @@ module.exports = {
   output: {
     path: './build',
     publicPath: './js',
+    library: 'Toast',
+    libraryTarget: 'var',
     filename: 'js/[name].js'
   },
   resolve: {

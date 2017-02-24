@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Toast from './Toast'
-import { update } from './utils'
+import ToastInst from './Toast'
+// import { update } from './utils'
 
-const createComponent = function (options = {}) {
+/* const createComponent = function (options = {}) {
   const { transition } = options
 
   return update(Toast, {
@@ -10,14 +10,15 @@ const createComponent = function (options = {}) {
       toastTransition: transition
     }
   })
-}
+} // */
 
 document.body.insertAdjacentHTML('beforeend', '<div id="toast"></div>')
 
-const ToastInst = new Vue(
-  Object.assign({}, Toast, { // app body
+const Toast = new Vue(
+  Object.assign({}, ToastInst, { // app body
     el: '#toast'
   })
 )
 
-export { Toast, createComponent }
+module.exports = Toast
+

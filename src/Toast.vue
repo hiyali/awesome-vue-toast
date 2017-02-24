@@ -28,7 +28,7 @@ export default {
     return {
       messages: [],
       maxToastId: 0,
-      dismissInterval: 50 * 1000
+      dismissInterval: 5 * 1000
     }
   },
   props: {

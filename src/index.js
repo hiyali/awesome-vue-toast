@@ -20,4 +20,4 @@ const ToastInst = new Vue(
   })
 )
 
-export { ToastInst, createComponent }
+export { Toast, createComponent }

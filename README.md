@@ -10,7 +10,7 @@ Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
 
 # usage
 ```javascript
-import Toast from './awesome-vue-toast'
+import Toast from './awesome-vue-toast/src'
 ...
 Toast.showToast('Enjoy toast!')
 ```

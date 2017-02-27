@@ -15,6 +15,20 @@ import Toast from './awesome-vue-toast'
 Toast.showToast('Enjoy toast!')
 ```
 
+### for singleton
+```html
+<body>
+  ...
+  <script src="./awesome-vue-toast/build/js/toast.js"></script>
+  <script>
+    ...
+    Toast.showToast('Enjoy toast!')
+    ...
+  </script>
+  ...
+</body>
+```
+
 ## with some option
 ```javascript
 Toast.addMessage({ text: 'This is success type', type: 'success', dismissAfter: 3 * 1000 })

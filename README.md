@@ -40,7 +40,7 @@ Toast.addMessage({ text: 'This is success type', type: 'success', dismissAfter: 
 | `type`         | `String`   | info          | success, warning, danger |
 | `dismissAfter` | `Int`      | 5 * 1000      | milliseconds |
 
-## html
+## html element
 ```html
 <div id="toast" position="se"></div>
 ```

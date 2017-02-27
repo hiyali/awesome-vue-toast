@@ -10,7 +10,7 @@ Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
 
 [Live demo](https://hiyali.github.io/awesome-vue-toast)
 
--- Screenshot --
+### Screenshot
 
 ![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
 
@@ -55,7 +55,7 @@ Toast.addMessage({ text: 'This is success type', type: 'success', dismissAfter: 
 | :------------ | :--------- | :------------- | :------------- |
 | `position`    | se         | n, s, nw, ne, sw, se | north, south, north west, ... |
 
-# Development / build
+## Development / build
 ```bash
 npm run dev # development
 npm run build # build

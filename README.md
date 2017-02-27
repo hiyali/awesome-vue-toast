@@ -4,12 +4,15 @@
 * Can be singleton
 * Programmable
 
-Screenshot
-![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
+Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
+
+## Example
 
 [demo](https://hiyali.github.io/awesome-vue-toast)
 
-Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
+Screenshot
+
+![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
 
 # usage
 ```javascript

@@ -1,5 +1,5 @@
 # awesome-vue-toast
-🚀 awesome vue2 simple toast
+:whale: awesome vue2 simple toast
 
 * Can be singleton
 * Programmable
@@ -8,13 +8,13 @@ Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
 
 ## Example
 
-[demo](https://hiyali.github.io/awesome-vue-toast)
+[Live demo](https://hiyali.github.io/awesome-vue-toast)
 
-Screenshot
+-- Screenshot --
 
 ![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
 
-# usage
+## usage
 ```javascript
 import Toast from './awesome-vue-toast/src'
 ...

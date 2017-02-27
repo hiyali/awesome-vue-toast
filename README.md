@@ -14,3 +14,9 @@ import Toast from './awesome-vue-toast'
 ...
 Toast.showToast('Enjoy toast!')
 ```
+
+# Development / build
+```bash
+npm run dev # development
+npm run build # build
+```

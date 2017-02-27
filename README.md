@@ -4,6 +4,9 @@
 * Can be singleton
 * Programmable
 
+Screenshot
+![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
+
 [demo](https://hiyali.github.io/awesome-vue-toast)
 
 Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)

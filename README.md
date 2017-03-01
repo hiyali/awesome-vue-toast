@@ -37,7 +37,11 @@ Toast.showToast('Enjoy toast!')
 
 ## with some option
 ```javascript
-Toast.addMessage({ text: 'This is success type', type: 'success', dismissAfter: 3 * 1000 })
+Toast.addMessage({
+  text: 'This is success type',
+  type: 'success',
+  dismissAfter: 3 * 1000
+})
 ```
 
 | option         | type       |  default    | other value    |
@@ -56,7 +60,7 @@ Toast.addMessage({ text: 'This is success type', type: 'success', dismissAfter: 
 | `position`    | se         | n, s, nw, ne, sw, se | north, south, north west, ... |
 
 ## Development / build
-```bash
+```shell
 npm run dev # development
 npm run build # build
 ```

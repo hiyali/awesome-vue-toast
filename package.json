@@ -1,6 +1,6 @@
 {
   "name": "awesome-vue-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "awesome vue2 simple toast",
   "scripts": {
     "dev": "webpack --config conf/webpack.conf.js --watch --progress --color",

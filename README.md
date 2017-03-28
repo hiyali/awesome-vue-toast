@@ -14,9 +14,15 @@ Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
 
 ![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
 
+## install
+
+```shell
+npm i --save awesome-vue-toast
+```
+
 ## usage
 ```javascript
-import Toast from './awesome-vue-toast/src'
+import Toast from 'awesome-vue-toast'
 ...
 Toast.showToast('Enjoy toast!')
 ```

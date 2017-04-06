@@ -1,6 +1,6 @@
 {
   "name": "awesome-vue-toast",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "awesome vue2 simple toast",
   "main": "build/js/toast.js",
   "scripts": {

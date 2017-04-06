@@ -1,6 +1,9 @@
 # awesome-vue-toast
 :whale: awesome vue2 simple toast
 
+[![npm package](https://img.shields.io/npm/v/awesome-vue-toast.svg)](https://www.npmjs.com/package/awesome-vue-toast)
+
+
 * Can be singleton
 * Programmable
 
@@ -14,20 +17,21 @@ Changed from [AStaroverov/vue-toast](https://github.com/AStaroverov/vue-toast)
 
 ![screenshot](https://raw.githubusercontent.com/hiyali/awesome-vue-toast/master/assets/toast-screenshot.png "screenshot")
 
-## install
+## Install
 
 ```shell
-npm i --save awesome-vue-toast
+npm i -S awesome-vue-toast
 ```
 
-## usage
+## Usage
 ```javascript
 import Toast from 'awesome-vue-toast'
 ...
 Toast.showToast('Enjoy toast!')
 ```
 
-### for singleton
+### Singleton
+
 ```html
 <body>
   ...
@@ -41,7 +45,7 @@ Toast.showToast('Enjoy toast!')
 </body>
 ```
 
-## with some option
+## Option
 ```javascript
 Toast.addMessage({
   text: 'This is success type',
@@ -50,23 +54,20 @@ Toast.addMessage({
 })
 ```
 
-| option         | type       |  default    | other value    |
+| option         | type       |  default      | other value  |
 | :------------- | :--------- | :------------ | :----------- |
 | `text`         | `String`   |               |              |
 | `type`         | `String`   | info          | success, warning, danger |
 | `dismissAfter` | `Int`      | 5 * 1000      | milliseconds |
-
-## html element
-```html
-<div id="toast" position="se"></div>
-```
-
-| props         | default    | other value    | description    |
-| :------------ | :--------- | :------------- | :------------- |
-| `position`    | se         | n, s, nw, ne, sw, se | north, south, north west, ... |
 
 ## Development / build
 ```shell
 npm run dev # development
 npm run build # build
 ```
+
+## For customization props
+
+| props         | default    | other value    | description    |
+| :------------ | :--------- | :------------- | :------------- |
+| `position`    | se         | n, s, nw, ne, sw, se | north, south, north west, ... |
